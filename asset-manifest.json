@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/anas_dev/static/css/main.8189922c.css",
-    "main.js": "/anas_dev/static/js/main.031ebd1f.js",
+    "main.js": "/anas_dev/static/js/main.67f723f2.js",
+    "static/media/avatar2.png": "/anas_dev/static/media/avatar2.fe5cfdd942643140ebf7.png",
     "index.html": "/anas_dev/index.html",
     "main.8189922c.css.map": "/anas_dev/static/css/main.8189922c.css.map",
-    "main.031ebd1f.js.map": "/anas_dev/static/js/main.031ebd1f.js.map"
+    "main.67f723f2.js.map": "/anas_dev/static/js/main.67f723f2.js.map"
   },
   "entrypoints": [
     "static/css/main.8189922c.css",
-    "static/js/main.031ebd1f.js"
+    "static/js/main.67f723f2.js"
   ]
 }
