@@ -20,24 +20,21 @@ const Services = () => {
           <Card
             Icon={MdDesignServices}
             title={"ui/ux designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            disc={`COMMING SOON`}
           />
         </Slide>
         <Slide direction="up">
           <Card
             Icon={FiCodesandbox}
             title={"graphic designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            disc={`COMMING SOON`}
           />
         </Slide>
         <Slide direction="right">
           <Card
             Icon={CgWebsite}
             title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            disc={`COMMING SOON`}
           />
         </Slide>
       </Cards>

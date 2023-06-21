@@ -13,19 +13,17 @@ const ProfComponent = () => {
           <h4>
             Hello <span className="green">I'am</span>
           </h4>
-          <h1 className="green">Milad Amiri</h1>
-          <h3>UX/UI Designer and graphic designer</h3>
+          <h1 className="green">Anas</h1>
+          <h3>Junior Developer, Designer and Digital Marketing Marketplace</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-            corporis quos?
+            I'am Nasruloh or Anas
           </p>
-          <button>Let's talk</button>
+          <button href="#footer"> Let's talk</button>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
               <span>
-                <a href="/">
+                <a href="https://www.instagram.com/anas.piee/">
                   <AiOutlineInstagram />
                 </a>
               </span>
@@ -35,7 +33,7 @@ const ProfComponent = () => {
                 </a>
               </span>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/nasruloh-anas-43a389153/">
                   <FaLinkedinIn />
                 </a>
               </span>
@@ -46,7 +44,7 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
+            src= {require('./img/avatar2.png')}
             alt="profile"
           />
         </Profile>

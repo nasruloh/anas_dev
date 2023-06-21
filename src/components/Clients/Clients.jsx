@@ -6,38 +6,34 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Slide } from 'react-awesome-reveal';
 
 let clients = [
-    {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 3,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
-    {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 4,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
-    {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
-    {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
+    // {
+    //     name : "John Michel",
+    //     position : "web developer",
+    //     img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+    //     stars : 3,
+    //     disc : `#`
+    // },
+    // {
+    //     name : "John Michel",
+    //     position : "web developer",
+    //     img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+    //     stars : 4,
+    //     disc : `#`
+    // },
+    // {
+    //     name : "John Michel",
+    //     position : "web developer",
+    //     img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+    //     stars : 5,
+    //     disc : `#`
+    // },
+    // {
+    //     name : "John Michel",
+    //     position : "web developer",
+    //     img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+    //     stars : 5,
+    //     disc : `#`
+    // },
 ]
 var settings = {
     dots: true,
@@ -84,7 +80,7 @@ const Clients = () => {
     <Container id='client'>
         <Slide direction="left">
             <span className="green">testimonials</span>
-            <h1>what clients say</h1>
+            <h1>what clients say/#COMMING SOON</h1>
         </Slide>
         <Testimonials>
             <Slider ref={arrowRef} {...settings}>
